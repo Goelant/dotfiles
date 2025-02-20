@@ -1,0 +1,121 @@
+[2m2025-02-19T07:25:29.963020Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: L’opération a été annulée par l’utilisateur. (0x800704C7)
+[2m2025-02-19T07:56:35.643548Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'zebar'.
+
+Error: L’opération a été annulée par l’utilisateur. (0x800704C7)
+[2m2025-02-19T08:31:18.207478Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected key at line 307 column 5, while parsing a block mapping at line 305 column 5
+[2m2025-02-20T10:17:36.319874Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: Usage: wm-common <COMMAND>
+
+Commands:
+  adjust-borders            
+  close                     
+  focus                     
+  ignore                    
+  move                      
+  move-workspace            
+  position                  
+  resize                    
+  set-floating              
+  set-fullscreen            
+  set-minimized             
+  set-tiling                
+  set-title-bar-visibility  
+  set-transparency          
+  shell-exec                
+  size                      
+  toggle-floating           
+  toggle-fullscreen         
+  toggle-minimized          
+  toggle-tiling             
+  toggle-tiling-direction   
+  set-tiling-direction      
+  wm-cycle-focus            
+  wm-disable-binding-mode   
+  wm-enable-binding-mode    
+  wm-exit                   
+  wm-redraw                 
+  wm-reload-config          
+  wm-toggle-pause           
+  help                      Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help
+ at line 5 column 21
+[2m2025-02-20T10:17:53.533213Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: Usage: wm-common <COMMAND>
+
+Commands:
+  adjust-borders            
+  close                     
+  focus                     
+  ignore                    
+  move                      
+  move-workspace            
+  position                  
+  resize                    
+  set-floating              
+  set-fullscreen            
+  set-minimized             
+  set-tiling                
+  set-title-bar-visibility  
+  set-transparency          
+  shell-exec                
+  size                      
+  toggle-floating           
+  toggle-fullscreen         
+  toggle-minimized          
+  toggle-tiling             
+  toggle-tiling-direction   
+  set-tiling-direction      
+  wm-cycle-focus            
+  wm-disable-binding-mode   
+  wm-enable-binding-mode    
+  wm-exit                   
+  wm-redraw                 
+  wm-reload-config          
+  wm-toggle-pause           
+  help                      Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help
+ at line 5 column 21
+[2m2025-02-20T10:18:08.008768Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.startup_commands: Usage: wm-common <COMMAND>
+
+Commands:
+  adjust-borders            
+  close                     
+  focus                     
+  ignore                    
+  move                      
+  move-workspace            
+  position                  
+  resize                    
+  set-floating              
+  set-fullscreen            
+  set-minimized             
+  set-tiling                
+  set-title-bar-visibility  
+  set-transparency          
+  shell-exec                
+  size                      
+  toggle-floating           
+  toggle-fullscreen         
+  toggle-minimized          
+  toggle-tiling             
+  toggle-tiling-direction   
+  set-tiling-direction      
+  wm-cycle-focus            
+  wm-disable-binding-mode   
+  wm-enable-binding-mode    
+  wm-exit                   
+  wm-redraw                 
+  wm-reload-config          
+  wm-toggle-pause           
+  help                      Print this message or the help of the given subcommand(s)
+
+Options:
+  -h, --help  Print help
+ at line 5 column 21
+[2m2025-02-20T10:18:20.272692Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 290 column 15
+[2m2025-02-20T13:38:49.178676Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:\Users\dsalaudmabileau\scoop\apps\firefoxpwa\current\firefoxpwa.exe site launch 01JKXDGXY0TVHC0B152B91TCV0'.
