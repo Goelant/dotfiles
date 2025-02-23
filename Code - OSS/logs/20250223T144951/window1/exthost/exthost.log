@@ -1,0 +1,35 @@
+2025-02-23 14:49:53.032 [info] Extension host with pid 26448 started
+2025-02-23 14:49:53.032 [info] Skipping acquiring lock for /home/pirate/.config/Code - OSS/User/workspaceStorage/da28d12ade48567a32dccb134fe26787.
+2025-02-23 14:49:53.198 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-23 14:49:53.218 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-02-23 14:49:53.541 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-23 14:49:53.559 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-23 14:49:53.630 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-23 14:49:53.695 [info] Eager extensions activated
+2025-02-23 14:49:53.717 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 14:49:53.719 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 14:51:55.834 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 14:51:55.853 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 14:51:55.872 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 14:51:55.932 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-02-23 14:56:33.429 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-23 14:56:33.450 [info] Extension host with pid 26448 exiting with code 0
+2025-02-23 14:56:34.609 [info] Extension host with pid 29777 started
+2025-02-23 14:56:34.609 [info] Skipping acquiring lock for /home/pirate/.config/Code - OSS/User/workspaceStorage/4ee99ca66e0384ad9585a28b7c88e40d.
+2025-02-23 14:56:34.662 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-02-23 14:56:34.671 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-23 14:56:34.701 [info] Eager extensions activated
+2025-02-23 14:56:34.755 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 14:56:34.761 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-23 14:56:36.797 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-02-23 14:56:41.595 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-23 14:56:41.647 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:41.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:43.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:48.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:50.811 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-02-23 14:56:53.788 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:53.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:56:59.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:57:04.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354
+2025-02-23 14:57:09.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 354

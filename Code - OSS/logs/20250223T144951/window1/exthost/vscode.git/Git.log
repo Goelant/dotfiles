@@ -1,0 +1,193 @@
+2025-02-23 14:49:53.764 [info] [main] Log level: Info
+2025-02-23 14:49:53.764 [info] [main] Validating found git in: "git"
+2025-02-23 14:49:53.764 [info] [main] Using git "2.48.1" from "git"
+2025-02-23 14:49:53.764 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-23 14:49:53.764 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-23 14:49:53.764 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:49:53.764 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-23 14:49:53.764 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:49:53.766 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:49:53.766 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:49:53.766 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-23 14:49:55.068 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:49:55.068 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:50:21.773 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:50:21.773 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:51:22.729 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-23 14:51:22.730 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:51:54.969 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 14:51:54.969 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:51:56.304 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-23 14:51:56.304 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:52:07.674 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 14:52:07.674 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:52:08.453 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 14:52:08.453 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.939 [info] [main] Log level: Info
+2025-02-23 14:56:36.939 [info] [main] Validating found git in: "git"
+2025-02-23 14:56:36.939 [info] [main] Using git "2.48.1" from "git"
+2025-02-23 14:56:36.939 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-23 14:56:36.939 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-23 14:56:36.939 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.947 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:36.947 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.954 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:36.954 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.961 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:36.961 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.968 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:36.968 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.976 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:36.976 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.986 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:36.986 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:36.993 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:36.993 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.001 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.001 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.008 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.008 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.017 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:37.017 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.025 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.025 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.034 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:37.034 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.041 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.041 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.050 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:37.050 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.060 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-23 14:56:37.060 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.067 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:37.067 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.073 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.073 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.084 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 14:56:37.084 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.093 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-23 14:56:37.093 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.101 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-23 14:56:37.101 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-23 14:56:37.101 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-23 14:56:41.530 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-23 14:56:41.543 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-23 14:56:41.564 [info] [Model][openRepository] Opened repository: /home/pirate/.config
+2025-02-23 14:56:41.581 [info] > git config --get commit.template [3ms]
+2025-02-23 14:56:41.593 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:41.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-02-23 14:56:41.614 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:41.639 [info] > git status -z -uall [19ms]
+2025-02-23 14:56:41.639 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-02-23 14:56:41.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [67ms]
+2025-02-23 14:56:41.723 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:41.724 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-23 14:56:41.730 [info] > git config --get commit.template [8ms]
+2025-02-23 14:56:41.739 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:41.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-23 14:56:41.742 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:41.756 [info] > git status -z -uall [9ms]
+2025-02-23 14:56:41.758 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-02-23 14:56:42.108 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-23 14:56:43.800 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:43.800 [info] > git config --get commit.template [10ms]
+2025-02-23 14:56:43.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-23 14:56:43.802 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:43.821 [info] > git status -z -uall [8ms]
+2025-02-23 14:56:43.825 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-23 14:56:48.853 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:48.854 [info] > git config --get commit.template [11ms]
+2025-02-23 14:56:48.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-23 14:56:48.855 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:48.875 [info] > git status -z -uall [11ms]
+2025-02-23 14:56:48.879 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-23 14:56:49.263 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-23 14:56:50.069 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-23 14:56:51.750 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-02-23 14:56:51.750 [info] fatal: bad revision 'refs/heads/master'
+2025-02-23 14:56:51.750 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-02-23 14:56:52.424 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-23 14:56:53.750 [info] > git add -A -- /home/pirate/.config/.dmenurc /home/pirate/.config/Code - OSS/Cache/Cache_Data/5283edf90cf4ab50_0 /home/pirate/.config/Code - OSS/Cache/Cache_Data/b934dd08e0b5a560_0 /home/pirate/.config/Code - OSS/Cache/Cache_Data/index /home/pirate/.config/Code - OSS/Cache/Cache_Data/index-dir/the-real-index /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/0a0f7b50a6044a8f_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/0cf41989a08f0735_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/192157a3dae6a40a_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/237cd3dd93457d87_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/2fc564ea439d08a3_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/478cd116f975467f_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/487a1eea6fdfa655_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/603fb4da1e88ef39_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/65be696d225bb376_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/6a09607cbde5b5fd_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/8b94d850bd8d86cf_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/b496ab695b1b1035_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/c143e7e08d169d00_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/c4268d36f909e047_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/c6f25204923f9a18_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/c9648ab2d2cb59cd_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/d8dbfcc10a751fe8_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/dba28284be0614ec_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/e6a12ffb4ea97994_0 /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/index /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/js/index-dir/the-real-index /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/wasm/index /home/pirate/.config/Code - OSS/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447/chrome/wasm/index-dir/the-real-index /home/pirate/.config/Code - OSS/CachedProfilesData/__default__profile__/extensions.builtin.cache /home/pirate/.config/Code - OSS/CachedProfilesData/__default__profile__/extensions.user.cache /home/pirate/.config/Code - OSS/Code Cache/js/index /home/pirate/.config/Code - OSS/Code Cache/js/index-dir/the-real-index /home/pirate/.config/Code - OSS/Code Cache/wasm/index /home/pirate/.config/Code - OSS/Code Cache/wasm/index-dir/the-real-index /home/pirate/.config/Code - OSS/Crashpad/client_id /home/pirate/.config/Code - OSS/Crashpad/settings.dat /home/pirate/.config/Code - OSS/DawnGraphiteCache/data_0 /home/pirate/.config/Code - OSS/DawnGraphiteCache/data_1 /home/pirate/.config/Code - OSS/DawnGraphiteCache/data_2 /home/pirate/.config/Code - OSS/DawnGraphiteCache/data_3 /home/pirate/.config/Code - OSS/DawnGraphiteCache/index /home/pirate/.config/Code - OSS/DawnWebGPUCache/data_0 /home/pirate/.config/Code - OSS/DawnWebGPUCache/data_1 /home/pirate/.config/Code - OSS/DawnWebGPUCache/data_2 /home/pirate/.config/Code - OSS/DawnWebGPUCache/data_3 /home/pirate/.config/Code - OSS/DawnWebGPUCache/index /home/pirate/.config/Code - OSS/Dictionaries/en-US-10-1.bdic /home/pirate/.config/Code - OSS/GPUCache/data_0 /home/pirate/.config/Code - OSS/GPUCache/data_1 /home/pirate/.config/Code - OSS/GPUCache/data_2 /home/pirate/.config/Code - OSS/GPUCache/data_3 /home/pirate/.config/Code - OSS/GPUCache/index /home/pirate/.config/Code - OSS/Local Storage/leveldb/000003.log /home/pirate/.config/Code - OSS/Local Storage/leveldb/CURRENT /home/pirate/.config/Code - OSS/Local Storage/leveldb/LOCK /home/pirate/.config/Code - OSS/Local Storage/leveldb/LOG /home/pirate/.config/Code - OSS/Local Storage/leveldb/LOG.old /home/pirate/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001 /home/pirate/.config/Code - OSS/Network Persistent State /home/pirate/.config/Code - OSS/Preferences /home/pirate/.config/Code - OSS/Session Storage/000003.log /home/pirate/.config/Code - OSS/Session Storage/CURRENT /home/pirate/.config/Code - OSS/Session Storage/LOCK /home/pirate/.config/Code - OSS/Session Storage/LOG /home/pirate/.config/Code - OSS/Session Storage/LOG.old /home/pirate/.config/Code - OSS/Session Storage/MANIFEST-000001 /home/pirate/.config/Code - OSS/Shared Dictionary/cache/index /home/pirate/.config/Code - OSS/Shared Dictionary/cache/index-dir/the-real-index /home/pirate/.config/Code - OSS/Shared Dictionary/db /home/pirate/.config/Code - OSS/Shared Dictionary/db-journal /home/pirate/.config/Code - OSS/SharedStorage /home/pirate/.config/Code - OSS/SharedStorage-wal /home/pirate/.config/Code - OSS/Trust Tokens /home/pirate/.config/Code - OSS/Trust Tokens-journal /home/pirate/.config/Code - OSS/User/History/-1336236e/entries.json /home/pirate/.config/Code - OSS/User/History/-1336236e/vO73 /home/pirate/.config/Code - OSS/User/History/-2797df46/5nQe.css /home/pirate/.config/Code - OSS/User/History/-2797df46/BOfx.css /home/pirate/.config/Code - OSS/User/History/-2797df46/CqU2.css /home/pirate/.config/Code - OSS/User/History/-2797df46/GiKU.css /home/pirate/.config/Code - OSS/User/History/-2797df46/N7RP.css /home/pirate/.config/Code - OSS/User/History/-2797df46/WfTR.css /home/pirate/.config/Code - OSS/User/History/-2797df46/bHD6.css /home/pirate/.config/Code - OSS/User/History/-2797df46/eN2D.css /home/pirate/.config/Code - OSS/User/History/-2797df46/entries.json /home/pirate/.config/Code - OSS/User/History/-2797df46/ks97.css /home/pirate/.config/Code - OSS/User/History/-2797df46/nIcw.css /home/pirate/.config/Code - OSS/User/History/5b809f4e/ZfYb /home/pirate/.config/Code - OSS/User/History/5b809f4e/entries.json /home/pirate/.config/Code - OSS/User/globalStorage/state.vscdb /home/pirate/.config/Code - OSS/User/globalStorage/state.vscdb.backup /home/pirate/.config/Code - OSS/User/globalStorage/storage.json /home/pirate/.config/Code - OSS/User/workspaceStorage/4ee99ca66e0384ad9585a28b7c88e40d/state.vscdb /home/pirate/.config/Code - OSS/User/workspaceStorage/4ee99ca66e0384ad9585a28b7c88e40d/workspace.json /home/pirate/.config/Code - OSS/User/workspaceStorage/da28d12ade48567a32dccb134fe26787/state.vscdb /home/pirate/.config/Code - OSS/User/workspaceStorage/da28d12ade48567a32dccb134fe26787/state.vscdb.backup /home/pirate/.config/Code - OSS/User/workspaceStorage/da28d12ade48567a32dccb134fe26787/workspace.json /home/pirate/.config/Code - OSS/code.lock /home/pirate/.config/Code - OSS/languagepacks.json /home/pirate/.config/Code - OSS/logs/20250223T144458/editSessions.log /home/pirate/.config/Code - OSS/logs/20250223T144458/main.log /home/pirate/.config/Code - OSS/logs/20250223T144458/network-shared.log /home/pirate/.config/Code - OSS/logs/20250223T144458/remoteTunnelService.log /home/pirate/.config/Code - OSS/logs/20250223T144458/sharedprocess.log /home/pirate/.config/Code - OSS/logs/20250223T144458/terminal.log /home/pirate/.config/Code - OSS/logs/20250223T144458/userDataSync.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/exthost/extensionTelemetry.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/exthost/exthost.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/exthost/vscode.git/Git.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/exthost/vscode.github/GitHub.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/network.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/notebook.rendering.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/output_20250223T144500/tasks.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/renderer.log /home/pirate/.config/Code - OSS/logs/20250223T144458/window1/views.log /home/pirate/.config/Code - OSS/logs/20250223T144514/editSessions.log /home/pirate/.config/Code - OSS/logs/20250223T144514/main.log /home/pirate/.config/Code - OSS/logs/20250223T144514/network-shared.log /home/pirate/.config/Code - OSS/logs/20250223T144514/remoteTunnelService.log /home/pirate/.config/Code - OSS/logs/20250223T144514/sharedprocess.log /home/pirate/.config/Code - OSS/logs/20250223T144514/terminal.log /home/pirate/.config/Code - OSS/logs/20250223T144514/userDataSync.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/exthost/extensionTelemetry.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/exthost/exthost.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/exthost/vscode.git/Git.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/exthost/vscode.github/GitHub.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/exthost/vscode.json-language-features/JSON Language Server.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/network.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/notebook.rendering.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/output_20250223T144515/tasks.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/renderer.log /home/pirate/.config/Code - OSS/logs/20250223T144514/window1/views.log /home/pirate/.config/Code - OSS/logs/20250223T144951/editSessions.log /home/pirate/.config/Code - OSS/logs/20250223T144951/main.log /home/pirate/.config/Code - OSS/logs/20250223T144951/network-shared.log /home/pirate/.config/Code - OSS/logs/20250223T144951/ptyhost.log /home/pirate/.config/Code - OSS/logs/20250223T144951/remoteTunnelService.log /home/pirate/.config/Code - OSS/logs/20250223T144951/sharedprocess.log /home/pirate/.config/Code - OSS/logs/20250223T144951/terminal.log /home/pirate/.config/Code - OSS/logs/20250223T144951/userDataSync.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/exthost/extensionTelemetry.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/exthost/exthost.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/exthost/vscode.git/Git.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/exthost/vscode.github/GitHub.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/exthost/vscode.json-language-features/JSON Language Server.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/network.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/notebook.rendering.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/output_20250223T144953/tasks.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/output_20250223T145634/tasks.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/renderer.log /home/pirate/.config/Code - OSS/logs/20250223T144951/window1/views.log /home/pirate/.config/Code - OSS/machineid /home/pirate/.config/Kvantum/kvantum.kvconfig /home/pirate/.config/alacritty/alacritty.toml /home/pirate/.config/autostart/cachyos-hello.desktop /home/pirate/.config/coc/extensions/package.json /home/pirate/.config/coc/memos.json /home/pirate/.config/dconf/user /home/pirate/.config/fish/config.fish /home/pirate/.config/fish/fish_variables /home/pirate/.config/go/telemetry/local/asm@go1.24.0-go1.24.0-linux-amd64-2025-02-23.v1.count /home/pirate/.config/go/telemetry/local/cgo@go1.24.0-go1.24.0-linux-amd64-2025-02-23.v1.count /home/pirate/.config/go/telemetry/local/compile@go1.24.0-go1.24.0-linux-amd64-2025-02-23.v1.count /home/pirate/.config/go/telemetry/local/go@go1.24.0-go1.24.0-linux-amd64-2025-02-23.v1.count /home/pirate/.config/go/telemetry/local/link@go1.24.0-go1.24.0-linux-amd64-2025-02-23.v1.count /home/pirate/.config/go/telemetry/local/upload.token /home/pirate/.config/go/telemetry/local/weekends /home/pirate/.config/gtk-3.0/settings.ini /home/pirate/.config/gtk-4.0/settings.ini /home/pirate/.config/hypr/config/animations.conf /home/pirate/.config/hypr/config/autostart.conf /home/pirate/.config/hypr/config/colors.conf /home/pirate/.config/hypr/config/decorations.conf /home/pirate/.config/hypr/config/defaults.conf /home/pirate/.config/hypr/config/environment.conf /home/pirate/.config/hypr/config/input.conf /home/pirate/.config/hypr/config/keybinds.conf /home/pirate/.config/hypr/config/monitor.conf /home/pirate/.config/hypr/config/variables.conf /home/pirate/.config/hypr/config/windowrules.conf /home/pirate/.config/hypr/hyprland.conf /home/pirate/.config/hypr/scripts/screenshot /home/pirate/.config/hypr/scripts/screenshot_area /home/pirate/.config/hypr/scripts/screenshot_full /home/pirate/.config/mako/config /home/pirate/.config/micro/colorschemes/catppuccin-frappe.micro /home/pirate/.config/micro/colorschemes/catppuccin-latte.micro /home/pirate/.config/micro/colorschemes/catppuccin-macchiato.micro /home/pirate/.config/micro/colorschemes/catppuccin-mocha.micro /home/pirate/.config/micro/settings.json /home/pirate/.config/micro/syntax/LICENSE /home/pirate/.config/micro/syntax/PowerShell.yaml /home/pirate/.config/micro/syntax/README.md /home/pirate/.config/micro/syntax/ada.yaml /home/pirate/.config/micro/syntax/apacheconf.yaml /home/pirate/.config/micro/syntax/arduino.yaml /home/pirate/.config/micro/syntax/asciidoc.yaml /home/pirate/.config/micro/syntax/asm.yaml /home/pirate/.config/micro/syntax/ats.yaml /home/pirate/.config/micro/syntax/awk.yaml /home/pirate/.config/micro/syntax/bat.yaml /home/pirate/.config/micro/syntax/c.yaml /home/pirate/.config/micro/syntax/caddyfile.yaml /home/pirate/.config/micro/syntax/clojure.yaml /home/pirate/.config/micro/syntax/cmake.yaml /home/pirate/.config/micro/syntax/coffeescript.yaml /home/pirate/.config/micro/syntax/colortest.yaml /home/pirate/.config/micro/syntax/conky.yaml /home/pirate/.config/micro/syntax/cpp.yaml /home/pirate/.config/micro/syntax/crontab.yaml /home/pirate/.config/micro/syntax/crystal.yaml /home/pirate/.config/micro/syntax/csharp.yaml /home/pirate/.config/micro/syntax/css.yaml /home/pirate/.config/micro/syntax/csx.yaml /home/pirate/.config/micro/syntax/cython.yaml /home/pirate/.config/micro/syntax/d.yaml /home/pirate/.config/micro/syntax/dart.yaml /home/pirate/.config/micro/syntax/dockerfile.yaml /home/pirate/.config/micro/syntax/dot.yaml /home/pirate/.config/micro/syntax/elixir.yaml /home/pirate/.config/micro/syntax/elm.yaml /home/pirate/.config/micro/syntax/erb.yaml /home/pirate/.config/micro/syntax/erlang.yaml /home/pirate/.config/micro/syntax/fish.yaml /home/pirate/.config/micro/syntax/forth.yaml /home/pirate/.config/micro/syntax/fortran.yaml /home/pirate/.config/micro/syntax/freebsd-kernel.yaml /home/pirate/.config/micro/syntax/fsharp.yaml /home/pirate/.config/micro/syntax/gdscript.yaml /home/pirate/.config/micro/syntax/gemini.yaml /home/pirate/.config/micro/syntax/gentoo-ebuild.yaml /home/pirate/.config/micro/syntax/gentoo-etc-portage.yaml /home/pirate/.config/micro/syntax/git-commit.yaml /home/pirate/.config/micro/syntax/git-config.yaml /home/pirate/.config/micro/syntax/git-rebase-todo.yaml /home/pirate/.config/micro/syntax/glsl.yaml /home/pirate/.config/micro/syntax/gnuplot.yaml /home/pirate/.config/micro/syntax/go.yaml /home/pirate/.config/micro/syntax/godoc.yaml /home/pirate/.config/micro/syntax/golo.yaml /home/pirate/.config/micro/syntax/graphql.yaml /home/pirate/.config/micro/syntax/groff.yaml /home/pirate/.config/micro/syntax/groovy.yaml /home/pirate/.config/micro/syntax/haml.yaml /home/pirate/.config/micro/syntax/haskell.yaml /home/pirate/.config/micro/syntax/hc.yaml /home/pirate/.config/micro/syntax/html.yaml /home/pirate/.config/micro/syntax/html4.yaml /home/pirate/.config/micro/syntax/html5.yaml /home/pirate/.config/micro/syntax/ini.yaml /home/pirate/.config/micro/syntax/inputrc.yaml /home/pirate/.config/micro/syntax/java.yaml /home/pirate/.config/micro/syntax/javascript.yaml /home/pirate/.config/micro/syntax/jinja2.yaml /home/pirate/.config/micro/syntax/json.yaml /home/pirate/.config/micro/syntax/jsonnet.yaml /home/pirate/.config/micro/syntax/julia.yaml /home/pirate/.config/micro/syntax/keymap.yaml /home/pirate/.config/micro/syntax/kickstart.yaml /home/pirate/.config/micro/syntax/kotlin.yaml /home/pirate/.config/micro/syntax/ledger.yaml /home/pirate/.config/micro/syntax/lfe.yaml /home/pirate/.config/micro/syntax/lilypond.yaml /home/pirate/.config/micro/syntax/lisp.yaml /home/pirate/.config/micro/syntax/lua.yaml /home/pirate/.config/micro/syntax/mail.yaml /home/pirate/.config/micro/syntax/make_headers.go /home/pirate/.config/micro/syntax/makefile.yaml /home/pirate/.config/micro/syntax/man.yaml /home/pirate/.config/micro/syntax/markdown.yaml /home/pirate/.config/micro/syntax/mc.yaml /home/pirate/.config/micro/syntax/micro.yaml /home/pirate/.config/micro/syntax/mpdconf.yaml /home/pirate/.config/micro/syntax/nanorc.yaml /home/pirate/.config/micro/syntax/nginx.yaml /home/pirate/.config/micro/syntax/nim.yaml /home/pirate/.config/micro/syntax/nix.yaml /home/pirate/.config/micro/syntax/nu.yaml /home/pirate/.config/micro/syntax/objc.yaml /home/pirate/.config/micro/syntax/ocaml.yaml /home/pirate/.config/micro/syntax/octave.yaml /home/pirate/.config/micro/syntax/odin.yaml /home/pirate/.config/micro/syntax/pascal.yaml /home/pirate/.config/micro/syntax/patch.yaml /home/pirate/.config/micro/syntax/peg.yaml /home/pirate/.config/micro/syntax/perl.yaml /home/pirate/.config/micro/syntax/php.yaml /home/pirate/.config/micro/syntax/pkg-config.yaml /home/pirate/.config/micro/syntax/po.yaml /home/pirate/.config/micro/syntax/pony.yaml /home/pirate/.config/micro/syntax/pov.yaml /home/pirate/.config/micro/syntax/privoxy-action.yaml /home/pirate/.config/micro/syntax/privoxy-config.yaml /home/pirate/.config/micro/syntax/privoxy-filter.yaml /home/pirate/.config/micro/syntax/proto.yaml /home/pirate/.config/micro/syntax/puppet.yaml /home/pirate/.config/micro/syntax/python2.yaml /home/pirate/.config/micro/syntax/python3.yaml /home/pirate/.config/micro/syntax/r.yaml /home/pirate/.config/micro/syntax/raku.yaml /home/pirate/.config/micro/syntax/reST.yaml /home/pirate/.config/micro/syntax/renpy.yaml /home/pirate/.config/micro/syntax/rpmspec.yaml /home/pirate/.config/micro/syntax/ruby.yaml /home/pirate/.config/micro/syntax/rust.yaml /home/pirate/.config/micro/syntax/sage.yaml /home/pirate/.config/micro/syntax/scala.yaml /home/pirate/.config/micro/syntax/sed.yaml /home/pirate/.config/micro/syntax/sh.yaml /home/pirate/.config/micro/syntax/sls.yaml /home/pirate/.config/micro/syntax/solidity.yaml /home/pirate/.config/micro/syntax/sql.yaml /home/pirate/.config/micro/syntax/stata.yaml /home/pirate/.config/micro/syntax/svelte.yaml /home/pirate/.config/micro/syntax/swift.yaml /home/pirate/.config/micro/syntax/syntax_converter.go /home/pirate/.config/micro/syntax/systemd.yaml /home/pirate/.config/micro/syntax/tcl.yaml /home/pirate/.config/micro/syntax/terraform.yaml /home/pirate/.config/micro/syntax/tex.yaml /home/pirate/.config/micro/syntax/toml.yaml /home/pirate/.config/micro/syntax/twig.yaml /home/pirate/.config/micro/syntax/typescript.yaml /home/pirate/.config/micro/syntax/v.yaml /home/pirate/.config/micro/syntax/vala.yaml /home/pirate/.config/micro/syntax/verilog.yaml /home/pirate/.config/micro/syntax/vhdl.yaml /home/pirate/.config/micro/syntax/vi.yaml /home/pirate/.config/micro/syntax/vue.yaml /home/pirate/.config/micro/syntax/xml.yaml /home/pirate/.config/micro/syntax/xresources.yaml /home/pirate/.config/micro/syntax/yaml.yaml /home/pirate/.config/micro/syntax/yum.yaml /home/pirate/.config/micro/syntax/zig.yaml /home/pirate/.config/micro/syntax/zscript.yaml /home/pirate/.config/micro/syntax/zsh.yaml /home/pirate/.config/qt5ct/qt5ct.conf /home/pirate/.config/swaylock/config /home/pirate/.config/user-dirs.dirs /home/pirate/.config/user-dirs.locale /home/pirate/.config/waybar/config /home/pirate/.config/waybar/launch-waybar /home/pirate/.config/waybar/mediaplayer.py /home/pirate/.config/waybar/modules/mail.py /home/pirate/.config/waybar/modules/spotify.sh /home/pirate/.config/waybar/modules/storage.sh /home/pirate/.config/waybar/modules/weather.sh /home/pirate/.config/waybar/style.css /home/pirate/.config/waybar/waybar.sh /home/pirate/.config/wem/wem.cfg /home/pirate/.config/wlogout/layout /home/pirate/.config/wlogout/style.css /home/pirate/.config/wofi/config /home/pirate/.config/wofi/style.css [207ms]
+2025-02-23 14:56:53.764 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:53.764 [info] > git config --get commit.template [5ms]
+2025-02-23 14:56:53.765 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-23 14:56:53.765 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:53.781 [info] > git status -z -uall [8ms]
+2025-02-23 14:56:53.785 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-23 14:56:53.967 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:53.968 [info] > git config --get commit.template [10ms]
+2025-02-23 14:56:53.969 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-23 14:56:53.969 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:53.985 [info] > git status -z -uall [9ms]
+2025-02-23 14:56:53.987 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-23 14:56:54.414 [info] > git show --textconv :waybar/style.css [34ms]
+2025-02-23 14:56:54.414 [info] > git show --textconv HEAD:waybar/style.css [23ms]
+2025-02-23 14:56:54.414 [info] > git ls-files --stage -- /home/pirate/.config/waybar/style.css [13ms]
+2025-02-23 14:56:54.437 [info] > git cat-file -s ba16fc0c5a4079225f34f9d09ea84405742f758a [13ms]
+2025-02-23 14:56:54.438 [info] > git ls-tree -l HEAD -- /home/pirate/.config/waybar/style.css [26ms]
+2025-02-23 14:56:54.438 [info] fatal: Not a valid object name HEAD
+2025-02-23 14:56:54.450 [info] > git hash-object -t tree /dev/null [15ms]
+2025-02-23 14:56:54.450 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/pirate/.config/waybar/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fpirate%2F.config%2Fwaybar%2Fstyle.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-23 14:56:54.455 [info] > git hash-object -t tree /dev/null [6ms]
+2025-02-23 14:56:54.455 [warning] [GitFileSystemProvider][stat] File not found - git:/home/pirate/.config/waybar/style.css.git?%7B%22path%22%3A%22%2Fhome%2Fpirate%2F.config%2Fwaybar%2Fstyle.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-23 14:56:55.059 [info] > git ls-files --stage -- /home/pirate/.config/waybar/style.css [1ms]
+2025-02-23 14:56:55.066 [info] > git cat-file -s ba16fc0c5a4079225f34f9d09ea84405742f758a [1ms]
+2025-02-23 14:56:55.075 [info] > git show --textconv :waybar/style.css [1ms]
+2025-02-23 14:56:55.500 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-23 14:56:56.986 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-23 14:56:59.012 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:56:59.012 [info] > git config --get commit.template [10ms]
+2025-02-23 14:56:59.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-23 14:56:59.014 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:56:59.035 [info] > git status -z -uall [10ms]
+2025-02-23 14:56:59.037 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-23 14:57:04.064 [info] > git config --get commit.template [3ms]
+2025-02-23 14:57:04.076 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:57:04.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-23 14:57:04.079 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:57:04.104 [info] > git status -z -uall [14ms]
+2025-02-23 14:57:04.107 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-23 14:57:04.857 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-23 14:57:07.537 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-23 14:57:09.136 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-23 14:57:09.136 [info] > git config --get commit.template [11ms]
+2025-02-23 14:57:09.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-23 14:57:09.138 [warning] [Git][getBranch] No such branch: master
+2025-02-23 14:57:09.155 [info] > git status -z -uall [9ms]
+2025-02-23 14:57:09.156 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
