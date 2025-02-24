@@ -119,3 +119,4 @@ Options:
 [2m2025-02-20T10:18:20.272692Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
  at line 290 column 15
 [2m2025-02-20T13:38:49.178676Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:\Users\dsalaudmabileau\scoop\apps\firefoxpwa\current\firefoxpwa.exe site launch 01JKXDGXY0TVHC0B152B91TCV0'.
+[2m2025-02-21T18:01:58.280457Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
