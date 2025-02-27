@@ -1,11 +1,9 @@
 *
-
-/* RICE */
-!hypr
-!waybar
-!wal
-!wlogout
-!goxlr-utility
+!./hypr
+!./waybar
+!./wal
+!./wlogout
+!./goxlr-utility
 !.gitignore
-!brightness.conf
-!.startship.toml
+!./brightness.conf
+!./.startship.toml
