@@ -6,7 +6,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/pirate/.config/waybar"
+                "folderUri": "file:///home/pirate/.dotfiles/.config/hypr/configs"
             },
             {
                 "folderUri": "file:///home/pirate/.config"
@@ -17,7 +17,9 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/pirate/.config/waybar": "__default__profile__",
-            "file:///home/pirate/.config": "__default__profile__"
+            "file:///home/pirate/.config": "__default__profile__",
+            "file:///home/pirate/.dotfiles/.config/hypr/configs": "__default__profile__",
+            "file:///home/pirate/.config/hypr": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -71,8 +73,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -87,6 +88,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pirate/.config/hypr",
+                                        "path": "/home/pirate/.config/hypr",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/pirate/.dotfiles/.config/hypr/configs",
+                                        "path": "/home/pirate/.dotfiles/.config/hypr/configs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.dotfiles/.config/hypr/configs"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -451,8 +474,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel",
-                                    "checked": true
+                                    "label": "&&Panel"
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
@@ -778,8 +800,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -788,8 +809,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1109,7 +1129,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1695,7 +1716,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 254,
+            "sideBarWidth": 374,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -1708,9 +1729,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 3848,
-                "y": 68,
-                "width": 1266,
-                "height": 1364
+                "y": 48,
+                "width": 1268,
+                "height": 1384
             }
         },
         "openedWindows": []
