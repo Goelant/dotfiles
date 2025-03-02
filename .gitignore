@@ -1,8 +1,8 @@
 *
-./"Code - OSS"
 !./hypr
 !./waybar
 !./wal
+!./hypr
 !./wlogout
 !./goxlr-utility
 !.gitignore
