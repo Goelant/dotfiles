@@ -1,0 +1,1 @@
+../../../.dotfiles/.config/hypr/scripts/apply_wal_theme.sh

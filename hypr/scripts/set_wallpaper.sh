@@ -1,0 +1,1 @@
+../../../.dotfiles/.config/hypr/scripts/set_wallpaper.sh
