@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /home/ram/dotfiles
+[commit]
+	gpgSign = false
+[user]
+	name = Cline Checkpoint
+	email = checkpoint@cline.bot
