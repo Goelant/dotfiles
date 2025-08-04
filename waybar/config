@@ -1,0 +1,161 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "gtk-layer-shell": true,
+    "margin-bottom": -1,
+    "passthrough": false,
+    "height": 24,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [],
+    "modules-right": [
+        "cpu",
+        "custom/nwg-look",
+        "memory",
+        "disk",
+        "custom/update",
+        "tray",
+        "pulseaudio",
+        "custom/network-manager",
+        "network",
+        "custom/bluetooth-manager",
+        "battery",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "icon-size": 28,
+        "spacing": 14,
+        "on-scroll-up": "hyprctl dispatch workspace r+1",
+        "on-scroll-down": "hyprctl dispatch workspace r-1"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "  {usage}%",
+        "max-length": 10
+    },
+    "custom/nwg-look": {
+        "format": "󰸌",
+        "on-click": "nwg-look",
+        "tooltip-format": "Theme Manager (nwg-look)",
+        "tooltip": true
+    },
+    "disk": {
+        "interval": 30,
+        "format": "󰋊 {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "unit": "GB",
+        "tooltip-format": "Available {free} of {total}"
+    },
+    "memory": {
+        "interval": 10,
+        "format": "  {percentage}%",
+        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": "RAM - {used:0.1f}GiB used"
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50,
+        "separate-outputs": true
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 4
+    },
+    "clock": {
+        "format": "      {:%R\n %d.%m.%Y}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "on-scroll": 1,
+            "on-click-right": "mode",
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        },
+        "actions": {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    "network": {
+        "format-wifi": " {icon}",
+        "on-click": "foot --app-id=floating-terminal impala",
+        "format-ethernet": "  ",
+        "format-disconnected": "󰌙",
+        "format-icons": [
+            "󰤯 ",
+            "󰤟 ",
+            "󰤢 ",
+            "󰤢 ",
+            "󰤨 "
+        ],
+        "tooltip-format": "Network Manager (impala)",
+        "tooltip": true
+    },
+    "custom/bluetooth-manager": {
+        "format": "󰂯",
+        "on-click": "foot --app-id=floating-terminal bluetui",
+        "tooltip-format": "Bluetooth Manager (bluetui)",
+        "tooltip": true
+    },
+    "custom/update": {
+        "format": "󰚰",
+        "on-click": "foot --app-id=floating-terminal -e sh -c 'yay -Syyu; echo \"\\nUpdate completed. Press Enter to close...\"; read'",
+        "tooltip-format": "System Update (yay -Syyu)",
+        "tooltip": true
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": [
+            "󰂎",
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ]
+    },
+    "pulseaudio": {
+        "max-volume": 150,
+        "scroll-step": 10,
+        "format": "{icon} {volume}%",
+        "tooltip-format": "{volume}%",
+        "format-muted": "🔇 MUTE",
+        "format-icons": {
+            "default": [
+                "🔈",
+                "🔉",
+                "🔊"
+            ]
+        },
+        "on-click": "pavucontrol"
+    }
+}

@@ -1,0 +1,241 @@
+/*base background color*/
+@define-color bg_main rgba(255, 255, 255, 0.35);
+@define-color bg_main_tooltip rgba(255, 255, 255, 0.9);
+
+/*base background color of selections */
+@define-color bg_hover rgba(0, 0, 0, 0.2);
+/*base background color of active elements */
+@define-color bg_active rgba(0, 0, 0, 0.3);
+
+/*base border color*/
+@define-color content_main rgba(255, 255, 255, 0.9);
+/*text color for entries that are unselected */
+@define-color content_inactive rgba(0, 0, 0, 0.6);
+
+/* Special colors */
+@define-color update_color rgba(255, 165, 0, 0.8);
+@define-color update_hover rgba(255, 140, 0, 0.9);
+@define-color warning_color rgba(255, 165, 0, 0.8);
+
+
+* {
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    font-family: "Ubuntu Nerd Font", "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+window#waybar {
+    background: @bg_main;
+    color: @content_main;
+}
+
+tooltip {
+    background: @bg_main_tooltip;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+tooltip label {
+    color: @content_main;
+}
+
+#workspaces {
+    color: transparent;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+
+#workspaces button {
+    padding: 2px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#workspaces button.active {
+    color: rgba(255, 255, 255, 1.0);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+#workspaces button.focused {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#workspaces button.urgent {
+    background: rgba(255, 200, 0, 0.35);
+    border-bottom: 3px dashed @warning_color;
+    color: @warning_color;
+}
+
+#workspaces button:hover {
+    background: @bg_hover;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+#window {
+    margin-right: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+}
+
+/* Bloc unifié pour les modules système (CPU à BATTERY) */
+#cpu, #temperature, #memory, #disk, #custom-update, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager, #battery {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 4px 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 45px;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+}
+
+/* Premier élément du bloc - padding supplémentaire à gauche */
+#cpu {
+    padding-left: 10px;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Dernier élément du bloc - padding supplémentaire à droite et pas de bordure */
+#battery {
+    padding-right: 10px;
+    border-radius: 0 8px 8px 0;
+    border-right: none;
+}
+
+/* Éléments du milieu - pas de border-radius */
+#temperature, #memory, #disk, #custom-update, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager {
+    border-radius: 0;
+}
+
+#cpu:hover, #disk:hover, #memory:hover {
+    background: @bg_hover;
+}
+
+#temperature {
+    color: @content_main;
+    font-size: 14px;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#temperature.critical {
+    color: @warning_color;
+    font-size: initial;
+    border-bottom: 3px dashed @warning_color;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#tray {
+    /* Hérite du style du bloc unifié */
+}
+
+#tray > .passive {
+    border-bottom: none;
+}
+
+#tray > .active {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+#tray > .needs-attention {
+    border-bottom: 3px solid @warning_color;
+}
+
+#tray > widget {
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#tray > widget:hover {
+    background: @bg_hover;
+}
+
+#pulseaudio {
+    font-family: "Ubuntu Nerd Font", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: bold;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#pulseaudio:hover {
+    background: @bg_hover;
+    color: rgba(0, 0, 0, 1.0);
+}
+
+#network {
+    font-size: 18px;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#network:hover {
+    background: @bg_hover;
+}
+
+#custom-network-manager {
+    font-family: "Ubuntu Nerd Font", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#custom-network-manager:hover {
+    background: @bg_hover;
+    color: rgba(30, 144, 255, 1.0);
+}
+
+#custom-bluetooth-manager {
+    font-family: "Ubuntu Nerd Font", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#custom-bluetooth-manager:hover {
+    background: @bg_hover;
+    color: rgba(100, 149, 237, 1.0);
+}
+
+#custom-update {
+    font-family: "Ubuntu Nerd Font", sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#custom-update:hover {
+    background: @bg_hover;
+    color: @update_hover;
+}
+
+#battery {
+    font-size: 18px;
+    /* Background et spacing gérés par le bloc unifié */
+}
+
+#battery:hover {
+    background: @bg_hover;
+}
+
+#clock {
+    margin-left: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 4px 8px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+}
+
+#clock:hover {
+    background: @bg_hover;
+}
