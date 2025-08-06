@@ -14,12 +14,12 @@
     "modules-center": [],
     "modules-right": [
         "cpu",
-        "custom/nwg-look",
         "memory",
         "disk",
-        "custom/update",
         "tray",
         "pulseaudio",
+        "custom/update",
+        "custom/nwg",
         "custom/network-manager",
         "network",
         "custom/bluetooth-manager",
@@ -30,18 +30,13 @@
         "icon-size": 28,
         "spacing": 14,
         "on-scroll-up": "hyprctl dispatch workspace r+1",
-        "on-scroll-down": "hyprctl dispatch workspace r-1"
+        "on-scroll-down": "hyprctl dispatch workspace r-1",
+        "cursor": 0
     },
     "cpu": {
         "interval": 5,
         "format": "  {usage}%",
         "max-length": 10
-    },
-    "custom/nwg-look": {
-        "format": "󰸌",
-        "on-click": "nwg-look",
-        "tooltip-format": "Theme Manager (nwg-look)",
-        "tooltip": true
     },
     "disk": {
         "interval": 30,
@@ -68,7 +63,7 @@
         "spacing": 4
     },
     "clock": {
-        "format": "      {:%R\n %d.%m.%Y}",
+        "format": "      {:%R - %d/%m/%Y}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode": "year",
@@ -117,6 +112,12 @@
         "format": "󰚰",
         "on-click": "foot --app-id=floating-terminal -e sh -c 'yay -Syyu; echo \"\\nUpdate completed. Press Enter to close...\"; read'",
         "tooltip-format": "System Update (yay -Syyu)",
+        "tooltip": true
+    },
+    "custom/nwg": {
+        "format": "󰸌",
+        "on-click": "nwg-look",
+        "tooltip-format": "Theme Manager (nwg-look)",
         "tooltip": true
     },
     "battery": {

@@ -25,7 +25,7 @@
     border-radius: 0;
     font-family: "Ubuntu Nerd Font", "Ubuntu", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 window#waybar {
@@ -57,8 +57,7 @@ tooltip label {
 }
 
 #workspaces button.active {
-    color: rgba(255, 255, 255, 1.0);
-    border-bottom: 3px solid rgba(0, 0, 0, 0.8);
+    color: rgb(121, 239, 255);
 }
 
 #workspaces button.focused {
@@ -67,13 +66,12 @@ tooltip label {
 
 #workspaces button.urgent {
     background: rgba(255, 200, 0, 0.35);
-    border-bottom: 3px dashed @warning_color;
     color: @warning_color;
 }
 
 #workspaces button:hover {
-    background: @bg_hover;
-    color: rgba(255, 255, 255, 1.0);
+    color: transparent;
+    background: transparent;
 }
 
 #window {
@@ -88,16 +86,30 @@ tooltip label {
 }
 
 /* Bloc unifié pour les modules système (CPU à BATTERY) */
-#cpu, #temperature, #memory, #disk, #custom-update, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager, #battery {
+#workspaces, #cpu, #temperature, #memory, #disk, #custom-update, #custom-nwg, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager, #battery {
     background: rgba(0, 0, 0, 0.1);
-    padding: 4px 8px;
+    padding: 3px 8px 1px 4px;
     margin-left: 0px;
     margin-right: 0px;
-    min-width: 45px;
+    min-width: 24px;
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
     color: rgba(255, 255, 255, 0.9);
-    font-size: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#custom-network-manager,
+#network {
+    padding: 3px 8px 1px 0px;
+}
+
+#custom-bluetooth-manager {
+    padding: 3px 6px 1px 6px;
+}
+
+#workspaces {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 /* Premier élément du bloc - padding supplémentaire à gauche */
@@ -109,12 +121,13 @@ tooltip label {
 /* Dernier élément du bloc - padding supplémentaire à droite et pas de bordure */
 #battery {
     padding-right: 10px;
+    padding-left: 10px;
     border-radius: 0 8px 8px 0;
     border-right: none;
 }
 
 /* Éléments du milieu - pas de border-radius */
-#temperature, #memory, #disk, #custom-update, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager {
+#temperature, #memory, #disk, #custom-update, #custom-nwg, #tray, #pulseaudio, #custom-network-manager, #network, #custom-bluetooth-manager {
     border-radius: 0;
 }
 
@@ -124,7 +137,7 @@ tooltip label {
 
 #temperature {
     color: @content_main;
-    font-size: 14px;
+    font-size: 18px;
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -205,21 +218,18 @@ tooltip label {
     color: rgba(100, 149, 237, 1.0);
 }
 
-#custom-update {
+#custom-update,
+#custom-nwg {
     font-family: "Ubuntu Nerd Font", sans-serif;
     color: rgba(255, 255, 255, 0.9);
     font-size: 18px;
     /* Background et spacing gérés par le bloc unifié */
 }
 
-#custom-update:hover {
+#custom-update:hover,
+#custom-nwg:hover {
     background: @bg_hover;
     color: @update_hover;
-}
-
-#battery {
-    font-size: 18px;
-    /* Background et spacing gérés par le bloc unifié */
 }
 
 #battery:hover {
@@ -227,15 +237,19 @@ tooltip label {
 }
 
 #clock {
-    margin-left: 15px;
+    margin-left: 10px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
     padding: 4px 8px;
     color: rgba(255, 255, 255, 0.9);
-    font-size: 14px;
 }
 
 #clock:hover {
     background: @bg_hover;
+}
+
+#clock {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
