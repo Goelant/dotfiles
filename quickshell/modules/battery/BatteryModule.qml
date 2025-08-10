@@ -12,6 +12,7 @@ Row {
     property bool isCharging: false
     
     Text {
+        id: batteryIcon
         text: batteryModule.batteryIcon
         color: {
             if (batteryModule.isCharging) {
@@ -28,6 +29,7 @@ Row {
     }
     
     Text {
+        id: batteryText
         text: batteryModule.batteryLevel + "%"
         color: {
             if (batteryModule.isCharging) {
@@ -162,29 +164,30 @@ Row {
         console.log("Battery updated - Level:", batteryModule.batteryLevel, "Status:", batteryModule.batteryStatus, "Icon:", batteryModule.batteryIcon)
     }
     
-    // Tooltip on hover
+    // Hover effect - change text color
     MouseArea {
         anchors.fill: parent
         hoverEnabled: true
         
-        Rectangle {
-            visible: parent.containsMouse
-            color: "#c5e8ff"
-            border.color: "#c5e8ff"
-            border.width: 1
-            radius: 4
-            width: tooltipText.width + 8
-            height: tooltipText.height + 4
-            x: parent.mouseX + 10
-            y: parent.mouseY - height - 5
-            z: 1000
-            
-            Text {
-                id: tooltipText
-                anchors.centerIn: parent
-                text: "Battery: " + batteryModule.batteryLevel + "% (" + batteryModule.batteryStatus + ")"
-                color: "#ffffff"
-                font.pixelSize: 10
+        onEntered: {
+            batteryIcon.color = "#c5e8ff"
+            batteryText.color = "#c5e8ff"
+        }
+        
+        onExited: {
+            // Restore original colors
+            if (batteryModule.isCharging) {
+                batteryIcon.color = "#00ff00"
+                batteryText.color = "#00ff00"
+            } else if (batteryModule.batteryLevel <= 15) {
+                batteryIcon.color = "#ff6b6b"
+                batteryText.color = "#ff6b6b"
+            } else if (batteryModule.batteryLevel <= 30) {
+                batteryIcon.color = "#ffa500"
+                batteryText.color = "#ffa500"
+            } else {
+                batteryIcon.color = "#ffffff"
+                batteryText.color = "#ffffff"
             }
         }
     }

@@ -149,33 +149,12 @@ Item {
                 anchors.fill: parent
                 hoverEnabled: true
                 
-                Rectangle {
-                    visible: parent.containsMouse
-                    color: "#c5e8ff"
-                    border.color: "#c5e8ff"
-                    border.width: 1
-                    radius: 4
-                    width: tooltipText.width + 8
-                    height: tooltipText.height + 4
-                    x: parent.mouseX + 10
-                    y: parent.mouseY - height - 5
-                    z: 1000
-                    
-                    Text {
-                        id: tooltipText
-                        anchors.centerIn: parent
-                        text: {
-                            var now = new Date()
-                            return now.toLocaleDateString('fr-FR', {
-                                weekday: 'long',
-                                year: 'numeric',
-                                month: 'long',
-                                day: 'numeric'
-                            }) + " " + now.toLocaleTimeString('fr-FR')
-                        }
-                        color: "#ffffff"
-                        font.pixelSize: 12
-                    }
+                onEntered: {
+                    clockText.color = "#c5e8ff"
+                }
+                
+                onExited: {
+                    clockText.color = "#ffffff"
                 }
             }
         }

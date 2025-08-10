@@ -9,12 +9,14 @@ Row {
     property real cpuUsage: 0
     
     Text {
+        id: cpuIcon
         text: " "
         color: "#ffffff"
         font.pixelSize: 14
     }
     
     Text {
+        id: cpuText
         text: Math.round(cpuModule.cpuUsage) + "%"
         color: cpuModule.cpuUsage > 80 ? "#ff6b6b" : 
                cpuModule.cpuUsage > 60 ? "#ffa500" : "#ffffff"
@@ -74,30 +76,21 @@ Row {
         cpuProcess.running = true
     }
     
-    // Tooltip on hover
+    // Hover effect - change text color
     MouseArea {
         anchors.fill: parent
         hoverEnabled: true
         
-        Rectangle {
-            visible: parent.containsMouse
-            color: "#c5e8ff"
-            border.color: "#c5e8ff"
-            border.width: 1
-            radius: 4
-            width: tooltipText.width + 8
-            height: tooltipText.height + 4
-            x: parent.mouseX + 10
-            y: parent.mouseY - height - 5
-            z: 1000
-            
-            Text {
-                id: tooltipText
-                anchors.centerIn: parent
-                text: "CPU Usage: " + Math.round(cpuModule.cpuUsage) + "%"
-                color: "#ffffff"
-                font.pixelSize: 10
-            }
+        onEntered: {
+            cpuIcon.color = "#c5e8ff"
+            cpuText.color = "#c5e8ff"
+        }
+        
+        onExited: {
+            // Restore original colors
+            cpuIcon.color = "#ffffff"
+            cpuText.color = cpuModule.cpuUsage > 80 ? "#ff6b6b" : 
+                           cpuModule.cpuUsage > 60 ? "#ffa500" : "#ffffff"
         }
     }
 }

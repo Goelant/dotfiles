@@ -1,3 +1,6 @@
-
 [Default Applications]
 x-scheme-handler/discord=vesktop.desktop
+application/yaml=code.desktop
+
+[Added Associations]
+application/yaml=code.desktop;

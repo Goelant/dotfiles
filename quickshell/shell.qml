@@ -19,20 +19,20 @@ PanelWindow {
     implicitHeight: 30
     color: "transparent"
     
-    // Background with white color and 35% opacity - no bottom border
+    // Background - Hyprland will handle the blur effect
     Rectangle {
         anchors.fill: parent
         color: "#ffffff"
-        opacity: 0.65
+        opacity: 0.3
         
-        // Remove bottom border by clipping
+        // Bottom border
         Rectangle {
             anchors.left: parent.left
             anchors.right: parent.right
             anchors.bottom: parent.bottom
             height: 1
             color: "#ffffff"
-            opacity: 0.65
+            opacity: 0.5
         }
     }
     
